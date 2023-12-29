@@ -1,29 +1,20 @@
-# create-svelte
+# THREE.JS Journey's R3F's tutorials implemented in threlte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+In this repo you will find threejs-journey.com's final R3F tutorials implemented using svelte/threlte. I was able to accomplish most of the things taught in the lesson in threlte, however, it is missing some functionality that I will seek to update as the threlte ecosystem matures.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+To run this project use the following commands 
 ```bash
 npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+Note you will have to change the App.svelte to point to the Experience.svelte in the right folder (Default is the final chapter in Marble race)
 
 ## Building
 
